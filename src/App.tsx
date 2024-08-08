@@ -1,12 +1,9 @@
-import Game from "components/tic-tac-toe/Game";
-import "./App.css";
+import "./assets/styles/App.scss";
+
+import { AppRoutes } from "routes/AppRoutes";
 
 function App() {
-  return (
-    <div className="App">
-      <Game></Game>
-    </div>
-  );
+  return <AppRoutes></AppRoutes>;
 }
 
 export default App;
