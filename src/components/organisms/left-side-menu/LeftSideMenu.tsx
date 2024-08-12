@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 export const LeftSideMenu = () => {
   return (
     <>
       <p>
-        <a href="#">Link</a>
+        <Link to={"/app/home"}>Home</Link>
       </p>
       <p>
-        <a href="#">Link</a>
+        <Link to={"/login"}>Login</Link>
       </p>
       <p>
-        <a href="#">Link</a>
+        <Link to={"/"}>Login</Link>
       </p>
     </>
   );
